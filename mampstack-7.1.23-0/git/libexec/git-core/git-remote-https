@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/scripts/setenv.sh
+
+exec /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/git/libexec/git-core/.git-remote-https.bin  "$@"

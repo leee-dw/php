@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/apache2/bin/envvars
+exec /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/apache2/bin/httxt2dbm.bin "$@"

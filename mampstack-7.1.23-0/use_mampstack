@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ZDOTDIR=/Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0
+export ZDOTDIR
+
+exec /bin/zsh

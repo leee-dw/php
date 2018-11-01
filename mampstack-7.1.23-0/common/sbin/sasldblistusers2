@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/scripts/setenv.sh
+SASL_PATH="/Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/common/lib/sasl2"
+                export SASL_PATH
+exec /Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/common/sbin/.sasldblistusers2.bin -f "/Users/dongwoolee/Documents/Dev/php/mampstack-7.1.23-0/common/etc/sasldb2" "$@"
